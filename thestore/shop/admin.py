@@ -4,7 +4,7 @@ from .models import Product
 from .models import Image
 
 class ProductAdmin(admin.ModelAdmin):
-    fields = ['item', 'description', 'unitcost', 'quantity', 'size', 'color', 'created', 'updated', 'id']
+    fields = ['item', 'description', 'unitcost', 'quantity', 'size', 'color', 'created', 'updated']
 
 class ImageAdmin(admin.ModelAdmin):
     fields=['imgpath', 'product']

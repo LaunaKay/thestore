@@ -1,6 +1,4 @@
 from django.db import models
-from djorm_pgarray.fields import ArrayField
-from djorm_expressions.models import ExpressionManager
 from django.utils import timezone
 
 class Product(models.Model):
