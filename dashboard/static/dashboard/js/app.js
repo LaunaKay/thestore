@@ -41,22 +41,30 @@ angular
 	   //    	url:'/delivery',
 	   //    	templateUrl: '/static/partials/terms-conditions.html'
 	   //    })
-	   //    .state('terms', {
-	   //    	url:'/terms',
-	   //    	templateUrl: '/static/partials/terms-conditions.html'
-	   //    })
-	   //    .state('privacy', {
-	   //    	url:'/privacy',
-	   //    	templateUrl: '/static/partials/privacy.html'
-	   //    })
-		  // .state('faq', {
-	   //    	url:'/faq',
-	   //    	templateUrl: '/static/partials/faq.html'
-	   //    })
-	   //    .state('car', {
-	   //    	url: '/cart',
-	   //    	templateUrl: '/static/partials/cart.html'
-	   //    })
+	      .state('flot', {
+	      	url:'/flot',
+	      	templateUrl: '/static/dashboard/partials/flot.html'
+	      })
+	      .state('morris', {
+	      	url:'/morris',
+	      	templateUrl: '/static/dashboard/partials/morris.html'
+	      })
+		  .state('tables', {
+	      	url:'/tables',
+	      	templateUrl: '/static/dashboard/partials/tables.html'
+	      })
+	      .state('forms', {
+	      	url: '/forms',
+	      	templateUrl: '/static/dashboard/partials/forms.html'
+	      })
+	      .state('panels', {
+	      	url: '/panels',
+	      	templateUrl: '/static/dashboard/partials/panels-wells.html'
+	      })
+	      .state('buttons', {
+	      	url: '/forms',
+	      	templateUrl: '/static/dashboard/partials/buttons.html'
+	      })
 	 }])
 
 		// .state('addProduct', {
