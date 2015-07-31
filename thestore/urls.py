@@ -23,4 +23,6 @@ urlpatterns = patterns('',
     url(r'^/?', include('shop.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+
+    url(r'^dashboard/', include('dashboard.urls')),
 )
