@@ -1,7 +1,7 @@
 angular
   	.module('storeApp', ['ui.router', 'ngMap'])
 
-	.constant('BASE_URL', 'http://localhost:8000/api/products/')
+	.constant('BASE_URL', 'http://launakay.pythonanywhere.com/api/products/')
 
 	.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider)
 	{
